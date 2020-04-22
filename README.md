@@ -30,7 +30,7 @@ There are three test clauses:
 2. CHECK_THROWS -> Asserts that a given function (or statement) throws
 3. CHECK_NOTHROW -> Asserts that a given function (or statement) doesn't throw
 
-As Katch uses eval to do his thing inside the hood, you **_MUST use assertions in string form_** and javascript makes it very easy to do so with the backtick (\`\`) notation, specially if you need to use strings inside assertions. 
+As Katch uses eval to do his thing inside the hood, you **_MUST use assertions in string form_** and javascript makes it very easy to do so with the backtick (\`  \`) notation, specially if you need to use strings inside assertions. 
 Results are printed to the console.
 
 ```javascript
